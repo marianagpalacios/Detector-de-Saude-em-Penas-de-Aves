@@ -18,10 +18,15 @@ O sistema utiliza técnicas básicas de **processamento de imagem (OpenCV)** par
 ---
 
 ## 📂 Estrutura do projeto
+
 📁 detector-penas
+
 ┣ 📄 detector.py # Script principal
+
 ┣ 📄 requirements.txt # Dependências do projeto
+
 ┣ 📄 README.md # Documentação
+
 ┗ 📂 imagens_teste # Imagens de aves para análise
 
 
@@ -50,9 +55,13 @@ Renomeie para ave.jpg
 5. Execute o analisador
 python detector.py
 
+---
+
 📊 Exemplo de saída
 Desvio padrão da textura: 18.45
 Classificação: Penas parecem saudáveis
+
+---
 
 🌱 Próximos passos
 
@@ -61,6 +70,8 @@ Adicionar segmentação automática para focar apenas nas penas.
 Treinar um modelo de Machine Learning (CNN) com dataset de aves.
 
 Criar interface gráfica simples (ex.: Streamlit) para upload de imagens.
+
+---
 
 📌 Objetivo
 
