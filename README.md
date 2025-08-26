@@ -30,17 +30,15 @@ O sistema utiliza técnicas básicas de **processamento de imagem (OpenCV)** par
 ## ⚙️ Como executar
 
 ### 1. Clone o repositório
-```bash
 git clone https://github.com/seu-usuario/detector-penas.git
 cd detector-penas
 
-### 2. Crie um ambiente virtual (opcional, mas recomendado)
-
+2. Crie um ambiente virtual (opcional, mas recomendado)
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 
-### 3. Instale as dependências
+3. Instale as dependências
 pip install -r requirements.txt
 
 4. Adicione uma imagem de ave
@@ -52,14 +50,9 @@ Renomeie para ave.jpg
 5. Execute o analisador
 python detector.py
 
-
 📊 Exemplo de saída
-makefile
-Copiar
-Editar
 Desvio padrão da textura: 18.45
 Classificação: Penas parecem saudáveis
-
 
 🌱 Próximos passos
 
@@ -73,6 +66,8 @@ Criar interface gráfica simples (ex.: Streamlit) para upload de imagens.
 
 Este projeto é experimental e educacional, mostrando como a bioinformática e visão computacional podem ser aplicadas de forma interdisciplinar na análise de saúde animal.
 Não deve ser usado como diagnóstico real.
+
+
 
 
 
