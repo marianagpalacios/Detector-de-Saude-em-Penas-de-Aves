@@ -58,7 +58,9 @@ python detector.py
 ---
 
 📊 Exemplo de saída
+
 Desvio padrão da textura: 18.45
+
 Classificação: Penas parecem saudáveis
 
 ---
