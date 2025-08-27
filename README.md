@@ -38,21 +38,21 @@ O sistema utiliza técnicas básicas de **processamento de imagem (OpenCV)** par
 git clone https://github.com/seu-usuario/detector-penas.git
 cd detector-penas
 
-2. Crie um ambiente virtual (opcional, mas recomendado)
+### 2. Crie um ambiente virtual (opcional, mas recomendado)
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 
-3. Instale as dependências
+### 3. Instale as dependências
 pip install -r requirements.txt
 
-4. Adicione uma imagem de ave
+### 4. Adicione uma imagem de ave
 
 Coloque uma foto na pasta imagens_teste/
 
 Renomeie para ave.jpg
 
-5. Execute o analisador
+### 5. Execute o analisador
 python detector.py
 
 ---
